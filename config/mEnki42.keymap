@@ -72,7 +72,7 @@
 &mt LG(LC(Q)) GRAVE  &kp Q       &kp W           &kp E        &kp R             &kp T        &kp Y       &kp U              &kp I                &kp O            &kp P               &mt RIGHT_BRACKET LBKT
 &mt LCTRL LC(B)      &mt LCMD A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H       &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RCMD SEMICOLON  &mt RCTRL SQT
 &mt LALT MINUS       &lt 7 Z     &kp X           &kp C        &kp V             &kp B        &kp N       &kp M              &kp COMMA            &kp DOT          &lt 7 SLASH         &mt RALT BACKSLASH
-                                                 &lt 3 ESC    &lt 2 SPACE       &lt 1 TAB    &kp C_MUTE  &lt 6 ENTER        &lt 5 BACKSPACE
+                                                 &lt 3 ESC    &lt 2 SPACE       &lt 1 TAB    &kp C_MUTE  &lt 6 ENTER        &lt 5 BACKSPACE      &lt 7 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -100,7 +100,7 @@
 &none  &none     &none         &none      &none           &none     &kp RS(DEL)  &none     &none          &none        &none    &none
 &none  &kp LCMD  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none     &kp LEFT     &kp DOWN  &kp UP_ARROW   &kp RIGHT    &none    &none
 &none  &none     &none         &none      &none           &none     &kp INS      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none
-                               &trans     &trans          &trans    &kp C_MUTE   &trans    &trans
+                               &trans     &trans          &trans    &kp C_MUTE   &trans    &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
@@ -111,7 +111,7 @@
 &none  &none           &none         &none       &none             &none         &none           &none              &none             &none            &none       &none
 &none  &kp K_PREVIOUS  &kp K_VOL_DN  &kp K_MUTE  &kp K_VOLUME_UP   &kp K_NEXT    &kp K_PREVIOUS  &kp K_VOLUME_DOWN  &kp K_MUTE        &kp K_VOLUME_UP  &kp K_NEXT  &none
 &none  &none           &none         &none       &none             &none         &none           &none              &none             &none            &none       &none
-                                     &none       &kp K_PLAY_PAUSE  &none         &kp C_MUTE      &none              &kp K_PLAY_PAUSE
+                                     &none       &kp K_PLAY_PAUSE  &none         &kp C_MUTE      &none              &kp K_PLAY_PAUSE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREVIOUS>;
@@ -122,7 +122,7 @@
 &trans  &trans     &trans        &trans     &trans          &trans      &trans  &trans     &trans     &trans         &trans          &trans
 &trans  &kp LMETA  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans      &trans  &kp RSHFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_META  &trans
 &trans  &trans     &trans        &trans     &trans          &trans      &trans  &trans     &trans     &trans         &trans          &trans
-                                 &mkp MB2   &mkp MB1        &mkp MB3    &trans  &mkp MB3   &mkp MB1
+                                 &mkp MB2   &mkp MB1        &mkp MB3    &trans  &mkp MB3   &mkp MB1   &trans
             >;
         };
 
@@ -131,7 +131,7 @@
 &none  &kp GRAVE  &kp N7  &kp N8   &kp N9  &kp BSLH     &none       &none      &none      &none     &none     &none
 &none  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &none       &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
 &none  &kp LBKT   &kp N1  &kp N2   &kp N3  &kp RBKT     &none       &none      &none      &none     &none     &none
-                          &kp DOT  &kp N0  &kp MINUS    &kp C_MUTE  &trans     &trans
+                          &kp DOT  &kp N0  &kp MINUS    &kp C_MUTE  &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -142,7 +142,7 @@
 &none  &kp TILDE       &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp PIPE           &none       &none      &none      &none     &none     &none
 &none  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &none       &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
 &none  &kp LEFT_BRACE  &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp RIGHT_BRACE    &none       &none      &none      &none     &none     &none
-                                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &kp C_MUTE  &trans     &trans
+                                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &kp C_MUTE  &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
