@@ -81,7 +81,7 @@
 
         game {
             bindings = <
-&trans  &kp LEFT_ALT    &trans  &kp W   &trans  &trans          &trans  &trans  &trans  &trans  &trans  &tog 0
+&none   &kp LEFT_ALT    &trans  &kp W   &trans  &trans          &trans  &trans  &trans  &trans  &trans  &tog 0
 &trans  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LCTRL       &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
